@@ -5,7 +5,7 @@ import java.awt.Component;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
-public class TitlesFrame
+public class TitlesFrame /*main method*/
 extends JFrame {
     public TitlesFrame() {
         this.initUI();
@@ -22,7 +22,7 @@ extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable(){
 
-            @Override
+            @Override /*override*/
             public void run() {
                 TitlesFrame ps = new TitlesFrame();
                 ps.setVisible(true);
